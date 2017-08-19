@@ -18,7 +18,7 @@ class Game:
         return 2
     return 1
 
-    def main():
+    def main(self):
         first = input("Would you like to go first? (y/n): ")
         while self.numcards > 0:
             if first.lower() != "y" and first.lower() != "yes":
